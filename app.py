@@ -68,7 +68,7 @@ def review(text):
     
   return result
 html_temp = """
-   <div class="" style="background-color:green;" >
+   <div class="" style="background-color:blue;" >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
@@ -79,8 +79,7 @@ html_temp = """
    </div>
    """
 st.markdown(html_temp,unsafe_allow_html=True)
-st.header("NLP Review System ")
-  
+st.header("Natural Language Processing(NLP) Review System ")
   
 text = st.text_area("Write Your Reviews")
 
@@ -92,7 +91,7 @@ if st.button("About"):
   st.subheader("Ayush Jain, PIET Jaipur")
   
 html_temp = """
-   <div class="" style="background-color:blue;" >
+   <div class="" style="background-color:red;" >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:20px;color:white;margin-top:10px;">Machine learning End Term Experiment NLP</p></center> 
