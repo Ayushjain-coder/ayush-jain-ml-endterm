@@ -1,1 +1,1 @@
-# ayush-jain-ml-endterm
+# machine-learning-model
